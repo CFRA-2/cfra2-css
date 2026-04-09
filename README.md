@@ -4,6 +4,8 @@
 
 A single `<link>` or `npm install` gives you the full CFRA2 design system: navy/gold palette, 38 utility sections, 12 components, and Tailwind-identical class names so muscle memory just works.
 
+> **Attribution:** CFRA2 is inspired by and built upon the utility-first methodology and class naming conventions of [Tailwind CSS](https://tailwindcss.com/) (MIT License, © Tailwind Labs Inc.). CFRA2 is an independent, pure-CSS implementation — it does not include or redistribute any Tailwind source code. It adds CFRA2-specific brand tokens, components, and design decisions on top of the familiar Tailwind class naming pattern.
+
 ---
 
 ## Installation
@@ -11,28 +13,25 @@ A single `<link>` or `npm install` gives you the full CFRA2 design system: navy/
 ### npm (GitHub Packages)
 
 ```bash
-# .npmrc in your project root (one-time setup)
-@cfra-2:registry=https://npm.pkg.github.com
-
-npm install @cfra-2/cfra2
+npm install CFRA-2/cfra2-css
 ```
 
 Then in your HTML:
 
 ```html
-<link rel="stylesheet" href="node_modules/@cfra-2/cfra2/cfra2.css">
+<link rel="stylesheet" href="node_modules/@cfra-2/cfra2-css/index.css">
 ```
 
 Or import in a bundler:
 
 ```js
-import '@cfra-2/cfra2/cfra2.css';
+import '@cfra-2/cfra2-css';
 ```
 
 ### Direct link
 
 ```html
-<link rel="stylesheet" href="path/to/cfra2.css">
+<link rel="stylesheet" href="https://cfra-2.github.io/cfra2-css/index.css">
 ```
 
 ---
