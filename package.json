@@ -1,5 +1,5 @@
 {
-  "name": "@cfra-2/cfra2",
+  "name": "@cfra-2/cfra2-css",
   "version": "1.0.0",
   "description": "CFRA2 — Utility-first CSS framework con la paleta navy/gold.",
   "main": "cfra2.css",
