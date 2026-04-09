@@ -1,0 +1,16 @@
+{
+  "name": "@cfra-2/cfra2",
+  "version": "1.0.0",
+  "description": "CFRA2 — Utility-first CSS framework con la paleta navy/gold.",
+  "main": "cfra2.css",
+  "style": "cfra2.css",
+  "files": [
+    "cfra2.css"
+  ],
+  "keywords": ["css", "framework", "utility", "cfra2", "navy", "gold"],
+  "author": "CFRA-2",
+  "license": "UNLICENSED",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}
